@@ -1,0 +1,10 @@
+{
+  "contracts/Counter.sol": {
+    "__sources__": {
+      "contracts/Counter.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.34;\r\n\r\ncontract Counter {\r\n    // counter variable declaration\r\n    uint256 public count = 0;\r\n\r\n    // function to increment count value by one\r\n    function increment() public {\r\n        count++;\r\n    }\r\n\r\n    // function to increment count value by an entered number\r\n    function incrementBy(uint256 _amount) public {\r\n        count+=_amount;\r\n    }\r\n\r\n    // getter function for count variable\r\n    function getCount() public view returns(uint256) {\r\n        return count;\r\n    }\r\n}",
+        "file": "contracts/Counter.sol"
+      }
+    }
+  }
+}
